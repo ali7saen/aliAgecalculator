@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وشبابك فيما افنيت</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet"></head>
+<body>
+    <div class="container">
+        <header>
+            <p>روي عن الإمام الصادق (عليه السلام) انه قال: كان فيما وعظ به لقمان ابنه:</p><span class="bold">اعلم أنك ستسأل غدا إذا وقفت بين يدي الله عز وجل عن أربع: شبابك فيما أبليته، وعمرك فيما أفنيته، ومالك مما اكتسبته، وفيما أنفقته، فتأهب لذلك وأعد له جوابا.</span>
+        </header>
+        <form id="form1">
+            <label for="birthday">ادخل تاريخ مولدك</label><br>
+            <input type="text" placeholder="0-00-0000" name="birthday" id="birthday"><br>
+            <button id="calcBtn">حساب</button>
+            <div class="output">
+                <p>السنين: <span id="years"></span></p> 
+                <p>الاشهر: <span id="months"></span></p>
+                <p>الاسابيع: <span id="weeks"></span></p>
+                <p>الايام: <span id="days"></span></p>
+                <p>الساعات: <span id="hours"></span></p>
+                <p>الدقائق: <span id="mnuets"></span></p>
+                <p>الثواني: <span id="seconds"></span></p>
+            </div>
+        </form>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+</html>
